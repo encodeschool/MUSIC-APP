@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="menu_wrapper d-flex">
+                            <i class='bx bx-chevron-left' ></i>
+                            <i class='bx bx-menu' ></i>
+                        </div>
+                        <div class="author_wrapper">
+                            <div class="img"></div>
+                            <h1>ENCODE MUSIC</h1>
+                            <p>Song name Must go here</p>
+                        </div>
+                        <div class="controls_wrapper d-flex d-column">
+                            <audio>
+                                <source src="music.mp3" type="audio/mpeg">
+                            </audio>
+                            <input type="range" value="0">
+                            <div class="control d-flex">
+                                <i class='bx bx-skip-previous' ></i>
+                                <i onclick="playPause();" class='bx bx-play ctrlIcon'></i>
+                                <i class='bx bx-skip-next' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

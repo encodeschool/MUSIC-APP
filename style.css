@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+}
+
+.menu_wrapper, .author_wrapper, .controls_wrapper {
+    margin-bottom: 25px;
+}
+
+.menu_wrapper i, .control i {
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 50%;   
+    transition: all .3s ease;
+}
+
+.menu_wrapper i:hover {
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.control {
+    margin-top: 25px;
+}
+
+.control i {
+    margin: 0 5px;
+}
+
+.img {
+    background-image: url('music.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border: 15px solid #52b46e;
+    margin-bottom: 25px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color: #52b46e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #52b46e;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 5px solid #f3f3f3;
+}
+
+.bx-play, .bx-pause {
+    font-size: 34px;
+    background-color: #52b46e!important;
+    color: white;
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-column {
+    flex-direction: column;
+}
