@@ -1,6 +1,6 @@
 🎵 Build a Music App with HTML, CSS & JavaScript - Full Tutorial (No Talking, Just Chill Music) 🎶
 
-![Uploading practise-13urok_ru_Монтажная область 1.png…]()
+![Music App with HTML CSS JS-Обложка](https://github.com/user-attachments/assets/5610aad7-c523-436e-b55f-a35f14a1ef53)
 
 🔥 Want to build your own Music App? In this step-by-step no-talking tutorial, you'll learn how to create a fully functional Music Player using HTML, CSS, and JavaScript! Perfect for beginners and web developers looking to sharpen their skills.
 
@@ -15,7 +15,7 @@
 📌 Don't forget to LIKE 👍, COMMENT 💬, and SUBSCRIBE 🔔 for more awesome coding tutorials!
 
 YOUTUBE
-
+https://www.youtube.com/watch?v=s89Fummpric
 
 🚀 Let's code and build an amazing music app together! 🎶
 
